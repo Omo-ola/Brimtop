@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.my-icon {
+  fill: blue; /* Change the fill color to red */
+}
+
+
+
+.testimonial .mySwiper .swiper-slide {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(0.9);
+}
+
+/* Make the centered slide larger */
+.testimonial .mySwiper .swiper-slide.swiper-slide-active {
+  transform: scale(1.1);
+  z-index: 2; 
+}
+
+
+
+
+.pagination {
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul.pagination li {
+  display: inline-block;
+  width: 25px;
+  border: 1px solid #7e7e7e;
+  display: flex;
+  border-radius: 3px;
+  justify-content: center;
+}
+
+ul.pagination li a {
+  text-decoration: none;
+  color: #7e7e7e;
+  font-size: 1rem;
+}
+
+ul.pagination li.active a {
+  color: white;
+  border: none;
+}
+
+
+
+
+
+/* .trending .swiper-wrapper{
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 20rem));
+gap: 2rem;
+} */
+
+ .swiper-slide.swiper-slide-active{
+  width: 30rem;
+}
+
+
+
+/* flex flex-wrap justify-center gap-4 item-center w-[fit-content] md:w-[50%] m-auto */

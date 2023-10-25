@@ -1,0 +1,172 @@
+{
+  "books": [
+    {
+      "name": "The Wealth of Nations",
+      "author": "Adam Smith",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jTrmMzvkL._AC_UY218_.jpg",
+      "category": "Business",
+      "otherInfo": "A foundational work in economics."
+    },
+    {
+      "name": "Meditations",
+      "author": "Marcus Aurelius",
+      "imageUrl": "https://m.media-amazon.com/images/I/815Ewv1oJ+L._AC_UY218_.jpg",
+      "category": "Philosophy",
+      "otherInfo": "A collection of Stoic philosophical writings."
+    },
+    {
+      "name": "The Art of War",
+      "author": "Sun Tzu",
+      "imageUrl": "https://m.media-amazon.com/images/I/51HwNMz3EuL._AC_UY218_.jpg",
+      "category": "Politics",
+      "otherInfo": "A classic on strategy and warfare."
+    },
+    {
+      "name": "Batman: The Dark Knight Returns",
+      "author": "Frank Miller",
+      "imageUrl": "https://m.media-amazon.com/images/I/917wsCEYSML._AC_UY218_.jpg",
+      "category": "Comics",
+      "otherInfo": "A graphic novel featuring an aging Batman."
+    },
+    {
+      "name": "A People's History of the United States",
+      "author": "Howard Zinn",
+      "imageUrl": "https://m.media-amazon.com/images/I/81Go6D4PnCL._AC_UY218_.jpg",
+      "category": "History",
+      "otherInfo": "An alternative perspective on U.S. history."
+    },
+    {
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "imageUrl": "https://m.media-amazon.com/images/I/91eopoUCjLL._AC_UY218_.jpg",
+      "category": "Fantasy",
+      "otherInfo": "The beginning of the Harry Potter series."
+    },
+    {
+      "name": "Where the Wild Things Are",
+      "author": "Maurice Sendak",
+      "imageUrl": "https://m.media-amazon.com/images/I/91tBaQgfHeL._AC_UY218_.jpg",
+      "category": "Children's Literature",
+      "otherInfo": "A beloved children's book."
+    },
+    {
+      "name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "imageUrl": "https://m.media-amazon.com/images/I/910oVuxR8lS._AC_UY218_.jpg",
+      "category": "Romance",
+      "otherInfo": "A tale of love and economics in 19th-century England."
+    },
+    {
+      "name": "The Shining",
+      "author": "Stephen King",
+      "imageUrl": "https://m.media-amazon.com/images/I/91+gNV-B84L._AC_UY218_.jpg",
+      "category": "Horror",
+      "otherInfo": "A haunted hotel and a writer's descent into madness."
+    },
+    {
+      "name": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "imageUrl": "https://m.media-amazon.com/images/I/71O7+oS69YL._AC_UY218_.jpg",
+      "category": "Memoir",
+      "otherInfo": "Anne Frank's diary during the Holocaust."
+    },
+    {
+      "name": "The Bible",
+      "author": "Various",
+      "imageUrl": "https://m.media-amazon.com/images/I/81YBeTKWt1L._AC_UY218_.jpg",
+      "category": "Religion",
+      "otherInfo": "A sacred text in various religious traditions."
+    },
+    {
+      "name": "Moneyball",
+      "author": "Michael Lewis",
+      "imageUrl": "https://m.media-amazon.com/images/I/91SFr67X1XL._AC_UY218_.jpg",
+      "category": "Sport",
+      "otherInfo": "A book about data-driven baseball."
+    },
+    {
+      "name": "Good to Great",
+      "author": "Jim Collins",
+      "imageUrl": "https://m.media-amazon.com/images/I/71BfRFOKDiL._AC_UY218_.jpg",
+      "category": "Business",
+      "otherInfo": "A study of great companies and leadership."
+    },
+    {
+      "name": "The Republic",
+      "author": "Plato",
+      "imageUrl": "https://m.media-amazon.com/images/I/81Cp5E-Z4oL._AC_UY218_.jpg",
+      "category": "Philosophy",
+      "otherInfo": "A foundational work in political philosophy."
+    },
+    {
+      "name": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "imageUrl": "https://m.media-amazon.com/images/I/51KV9QHeUBL._AC_UY218_.jpg",
+      "category": "Politics",
+      "otherInfo": "A treatise on political leadership."
+    },
+    {
+      "name": "Spider-Man: Kraven's Last Hunt",
+      "author": "J.M. DeMatteis",
+      "imageUrl": "https://m.media-amazon.com/images/I/91UjmR9dZVL._AC_UY218_.jpg",
+      "category": "Comics",
+      "otherInfo": "A classic Spider-Man storyline."
+    },
+    {
+      "name": "A Short History of Nearly Everything",
+      "author": "Bill Bryson",
+      "imageUrl": "https://m.media-amazon.com/images/I/81V+0bvES3L._AC_UY218_.jpg",
+      "category": "History",
+      "otherInfo": "A popular science book."
+    },
+    {
+      "name": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "imageUrl": "https://m.media-amazon.com/images/I/91OqU1cAmrL._AC_UY218_.jpg",
+      "category": "Fantasy",
+      "otherInfo": "The first book in the Kingkiller Chronicle series."
+    },
+    {
+      "name": "Charlotte's Web",
+      "author": "E.B. White",
+      "imageUrl": "https://m.media-amazon.com/images/I/917FQerThOL._AC_UY218_.jpg",
+      "category": "Children's Literature",
+      "otherInfo": "A beloved children's classic."
+    },
+    {
+      "name": "The Notebook",
+      "author": "Nicholas Sparks",
+      "imageUrl": "https://m.media-amazon.com/images/I/81-X60ARMYL._AC_UY218_.jpg",
+      "category": "Romance",
+      "otherInfo": "A love story by Nicholas Sparks."
+    },
+    {
+      "name": "The Shining",
+      "author": "Stephen King",
+      "imageUrl": "https://m.media-amazon.com/images/I/91+gNV-B84L._AC_UY218_.jpg",
+      "category": "Horror",
+      "otherInfo": "A haunted hotel and a writer's descent into madness."
+    },
+    {
+      "name": "The Glass Castle",
+      "author": "Jeannette Walls",
+      "imageUrl": "https://m.media-amazon.com/images/I/71td5GDUZML._AC_UY218_.jpg",
+      "category": "Memoir",
+      "otherInfo": "A memoir of a dysfunctional family."
+    },
+    {
+      "name": "The Bhagavad Gita",
+      "author": "Vyasa",
+      "imageUrl": "https://m.media-amazon.com/images/I/81JlYf3CPnL._AC_UY218_.jpg",
+      "category": "Religion",
+      "otherInfo": "A sacred text in Hinduism."
+    },
+    {
+      "name": "Moneyball",
+      "author": "Michael Lewis",
+      "imageUrl": "https://m.media-amazon.com/images/I/91SFr67X1XL._AC_UY218_.jpg",
+      "category": "Sport",
+      "otherInfo": "A book about data-driven baseball."
+    }
+  ]
+}
