@@ -9,6 +9,7 @@ const initialState = {
   isLoading: true,
   selectedBook: [],
   error: "",
+  showingBook:null,
   trending: [
     {
       name: "The Bhagavad Gita",
@@ -43,6 +44,8 @@ function reducer(state, action) {
       return { ...state, books: action.payload, isLoading: false };
     case "book/created":
       return { ...state, books: [action.payload], isLoading: false };
+    case "book/filtered":
+      return { ...state, showingBook: action.payload };
     case "error":
       return { ...state, error: action.payload };
     case "loading":
@@ -56,7 +59,7 @@ function reducer(state, action) {
 const baseUrl = "http://localhost:8000";
 
 function BooksProvider({ children }) {
-  const [{ books, isLoading, selectedBook, error, trending }, dispatch] =
+  const [{ books, isLoading, selectedBook, error, trending,showingBook }, dispatch] =
     useReducer(reducer, initialState);
 
   useEffect(function () {
@@ -78,7 +81,7 @@ function BooksProvider({ children }) {
 
   return (
     <BooksContext.Provider
-      value={{ books, selectedBook, error, isLoading, trending }}
+      value={{ books, selectedBook, error, isLoading, trending,showingBook,dispatch }}
     >
       {children}
     </BooksContext.Provider>

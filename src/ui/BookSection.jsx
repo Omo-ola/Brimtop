@@ -5,33 +5,26 @@ import Heading from "../components/Heading";
 import { useState } from "react";
 
 
-
-
-
-
-
-
-
-
-
-
 function BookSection() {
-  const { books, isLoading } = useBooks();
+  const { books, isLoading, dispatch, showingBook } = useBooks();
 
   const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 10; 
+  const itemsPerPage = 10;
 
   const handlePageChange = ({ selected }) => {
     setCurrentPage(selected);
   };
 
   const startIndex = currentPage * itemsPerPage;
+
   const endIndex = startIndex + itemsPerPage;
-  const pageBooks = books.slice(startIndex, endIndex);
+  let pageBooks = (showingBook ? showingBook : books).slice(
+    startIndex,
+    endIndex
+  );
 
 
 
-  
   const category = [
     ...new Set(
       books.map((book) => {
@@ -39,11 +32,18 @@ function BookSection() {
       })
     ),
   ];
+  category.unshift("All");
 
-  console.log(books);
-
-
-
+  function handleFilter(e) {
+    const filtered = e.target.innerText;
+    if (filtered === "All") {
+      return dispatch({ type: "book/filtered", payload: null });
+    }
+    const filteredCat = books.filter(
+      (category) => category.category === filtered
+    );
+    dispatch({ type: "book/filtered", payload: filteredCat });
+  }
 
   return (
     <section className="mb-4">
@@ -55,10 +55,11 @@ function BookSection() {
         {category.map((cat) => {
           return (
             <li
+              onClick={handleFilter}
               key={cat}
               className="p-2 border-2 border-blue-700 rounded cursor-pointer text-blue-700 font-bold active:bg-blue-700 active:text-white"
             >
-              {cat}
+                {cat}
             </li>
           );
         })}
@@ -86,9 +87,9 @@ function BookSection() {
           id="books"
         >
           {!isLoading &&
-            pageBooks.map((book, i) => (
+            (showingBook ? showingBook : pageBooks).map((book, i) => (
               <article
-                key={book.name}
+                key={i}
                 className="relative w-[13rem] bg-white shadow-2xl px-6 pt-3 h-[18rem] flex flex-col pb-3"
               >
                 <svg
@@ -117,11 +118,11 @@ function BookSection() {
           nextLabel={""}
           breakLabel="..."
           breakClassName="break-me"
-          pageCount={Math.ceil(books.length / itemsPerPage)}
+          pageCount={Math.ceil((showingBook ? showingBook :books).length / itemsPerPage)}
           marginPagesDisplayed={2}
           pageRangeDisplayed={5}
           onPageChange={handlePageChange}
-          containerClassName="pagination flex flex-wrap justify-center gap-4 item-center w-[fit-content] md:w-[50%] m-auto "
+          containerClassName="pagination flex flex-wrap justify-center gap-4 item-center w-[fit-content] md:w-[50%] m-auto"
           subContainerClassName="pages pagination inline-block text-sm"
           activeClassName="active bg-blue-700"
           previousClassName="invisible" // Hide the "Previous" button

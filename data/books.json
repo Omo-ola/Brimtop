@@ -167,6 +167,282 @@
       "imageUrl": "https://m.media-amazon.com/images/I/91SFr67X1XL._AC_UY218_.jpg",
       "category": "Sport",
       "otherInfo": "A book about data-driven baseball."
+    },
+    {
+      "name": "The Innovator's Dilemma",
+      "author": "Clayton Christensen",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jTrmMzvkL._AC_UY218_.jpg",
+      "category": "Business",
+      "otherInfo": "A groundbreaking work on disruptive innovation."
+    },
+    {
+      "name": "The Lean Startup",
+      "author": "Eric Ries",
+      "imageUrl": "https://m.media-amazon.com/images/I/815Ewv1oJ+L._AC_UY218_.jpg",
+      "category": "Business",
+      "otherInfo": "A guide to building successful startups."
+    },
+
+    {
+      "name": "The Art of Happiness",
+      "author": "Dalai Lama",
+      "imageUrl": "https://m.media-amazon.com/images/I/51HwNMz3EuL._AC_UY218_.jpg",
+      "category": "Philosophy",
+      "otherInfo": "Wisdom from the Dalai Lama on finding joy."
+    },
+    {
+      "name": "The Prince",
+      "author": "Machiavelli",
+      "imageUrl": "https://m.media-amazon.com/images/I/917wsCEYSML._AC_UY218_.jpg",
+      "category": "Politics",
+      "otherInfo": "A classic treatise on political strategy."
+    },
+    {
+      "name": "Superman: Red Son",
+      "author": "Mark Millar",
+      "imageUrl": "https://m.media-amazon.com/images/I/81Go6D4PnCL._AC_UY218_.jpg",
+      "category": "Comics",
+      "otherInfo": "An alternate take on Superman's origin."
+    },
+    {
+      "name": "A People's History of the World",
+      "author": "Chris Harman",
+      "imageUrl": "https://m.media-amazon.com/images/I/91eopoUCjLL._AC_UY218_.jpg",
+      "category": "History",
+      "otherInfo": "A global perspective on history."
+    },
+    {
+      "name": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling",
+      "imageUrl": "https://m.media-amazon.com/images/I/91tBaQgfHeL._AC_UY218_.jpg",
+      "category": "Fantasy",
+      "otherInfo": "The second book in the Harry Potter series."
+    },
+    {
+      "name": "The Cat in the Hat",
+      "author": "Dr. Seuss",
+      "imageUrl": "https://m.media-amazon.com/images/I/910oVuxR8lS._AC_UY218_.jpg",
+      "category": "Children's Literature",
+      "otherInfo": "A beloved children's classic."
+    },
+    {
+      "name": "Emma",
+      "author": "Jane Austen",
+      "imageUrl": "https://m.media-amazon.com/images/I/91+gNV-B84L._AC_UY218_.jpg",
+      "category": "Romance",
+      "otherInfo": "A comedy of manners by Jane Austen."
+    },
+    {
+      "name": "Pet Sematary",
+      "author": "Stephen King",
+      "imageUrl": "https://m.media-amazon.com/images/I/71O7+oS69YL._AC_UY218_.jpg",
+      "category": "Horror",
+      "otherInfo": "A tale of supernatural horror."
+    },
+    {
+      "name": "Anne Frank: The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "imageUrl": "https://m.media-amazon.com/images/I/81YBeTKWt1L._AC_UY218_.jpg",
+      "category": "Memoir",
+      "otherInfo": "Anne Frank's poignant diary."
+    },
+    {
+      "name": "The Quran",
+      "author": "Prophet Muhammad",
+      "imageUrl": "https://m.media-amazon.com/images/I/91SFr67X1XL._AC_UY218_.jpg",
+      "category": "Religion",
+      "otherInfo": "The holy book of Islam."
+    },
+    {
+      "name": "Moneyball: The Art of Winning an Unfair Game",
+      "author": "Michael Lewis",
+      "imageUrl": "https://m.media-amazon.com/images/I/71BfRFOKDiL._AC_UY218_.jpg",
+      "category": "Sport",
+      "otherInfo": "A data-driven approach to baseball."
+    },
+    {
+      "name": "Built to Last",
+      "author": "Jim Collins",
+      "imageUrl": "https://m.media-amazon.com/images/I/81Cp5E-Z4oL._AC_UY218_.jpg",
+      "category": "Business",
+      "otherInfo": "Lessons from visionary companies."
+    },
+    {
+      "name": "The Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "imageUrl": "https://m.media-amazon.com/images/I/51KV9QHeUBL._AC_UY218_.jpg",
+      "category": "Philosophy",
+      "otherInfo": "A philosophical exploration of human knowledge."
+    },
+    {
+      "name": "The Federalist Papers",
+      "author": "Alexander Hamilton, James Madison, John Jay",
+      "imageUrl": "https://m.media-amazon.com/images/I/81JlYf3CPnL._AC_UY218_.jpg",
+      "category": "Politics",
+      "otherInfo": "Key documents in American political thought."
+    },
+    {
+      "name": "Spider-Man: The Night Gwen Stacy Died",
+      "author": "Gerry Conway",
+      "imageUrl": "https://m.media-amazon.com/images/I/81V+0bvES3L._AC_UY218_.jpg",
+      "category": "Comics",
+      "otherInfo": "A pivotal Spider-Man storyline."
+    },
+    {
+      "name": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "imageUrl": "https://m.media-amazon.com/images/I/91OqU1cAmrL._AC_UY218_.jpg",
+      "category": "History",
+      "otherInfo": "A sweeping history of human evolution."
+    },
+    {
+      "name": "The Wheel of Time: The Eye of the World",
+      "author": "Robert Jordan",
+      "imageUrl": "https://m.media-amazon.com/images/I/917FQerThOL._AC_UY218_.jpg",
+      "category": "Fantasy",
+      "otherInfo": "The start of an epic fantasy series."
+    },
+    {
+      "name": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "imageUrl": "https://m.media-amazon.com/images/I/81vZumw1nnL._AC_UY218_.jpg",
+      "category": "Business",
+      "otherInfo": "Entrepreneurship lessons for small businesses."
+    },
+    {
+      "name": "The Art of War",
+      "author": "Sun Tzu",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Politics",
+      "otherInfo": "Ancient wisdom on strategy and conflict."
+    },
+    {
+      "name": "Batman: Year One",
+      "author": "Frank Miller",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Comics",
+      "otherInfo": "A retelling of Batman's early years."
+    },
+
+    {
+      "name": "Guns, Germs, and Steel",
+      "author": "Jared Diamond",
+      "imageUrl": "https://m.media-amazon.com/images/I/61L9ebdu52L._AC_UY218_.jpg",
+      "category": "History",
+      "otherInfo": "A study of human history and inequality."
+    },
+    {
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Fantasy",
+      "otherInfo": "The third book in the Harry Potter series."
+    },
+    {
+      "name": "Green Eggs and Ham",
+      "author": "Dr. Seuss",
+      "imageUrl": "https://m.media-amazon.com/images/I/61L9ebdu52L._AC_UY218_.jpg",
+      "category": "Children's Literature",
+      "otherInfo": "A fun and rhyming Dr. Seuss book."
+    },
+    {
+      "name": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "imageUrl": "https://m.media-amazon.com/images/I/91tBaQgfHeL._AC_UY218_.jpg",
+      "category": "Romance",
+      "otherInfo": "A novel of love and societal norms."
+    },
+    {
+      "name": "The Stand",
+      "author": "Stephen King",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Horror",
+      "otherInfo": "A post-apocalyptic horror epic."
+    },
+    {
+      "name": "Night",
+      "author": "Elie Wiesel",
+      "imageUrl": "https://m.media-amazon.com/images/I/81ESyUyvRXL._AC_UY218_.jpg",
+      "category": "Memoir",
+      "otherInfo": "Holocaust survivor's poignant memoir."
+    },
+    {
+      "name": "The Tao Te Ching",
+      "author": "Laozi",
+      "imageUrl": "https://m.media-amazon.com/images/I/81ESyUyvRXL._AC_UY218_.jpg",
+      "category": "Religion",
+      "otherInfo": "Ancient Chinese philosophy."
+    },
+    {
+      "name": "Moneyball: The Art of Winning an Unfair Game",
+      "author": "Michael Lewis",
+      "imageUrl": "https://m.media-amazon.com/images/I/91OqU1cAmrL._AC_UY218_.jpg",
+      "category": "Sport",
+      "otherInfo": "A data-driven approach to baseball."
+    },
+    {
+      "name": "Good to Great",
+      "author": "Jim Collins",
+      "imageUrl": "https://m.media-amazon.com/images/I/91OqU1cAmrL._AC_UY218_.jpg",
+      "category": "Business",
+      "otherInfo": "Lessons from exceptional companies."
+    },
+    {
+      "name": "The Republic",
+      "author": "Plato",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Philosophy",
+      "otherInfo": "A classic work of political philosophy."
+    },
+    {
+      "name": "The Art of Power",
+      "author": "Thich Nhat Hanh",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Politics",
+      "otherInfo": "A guide to mindful living and politics."
+    },
+    {
+      "name": "X-Men: Dark Phoenix Saga",
+      "author": "Chris Claremont",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Comics",
+      "otherInfo": "A landmark X-Men storyline."
+    },
+    {
+      "name": "A History of the World in 6 Glasses",
+      "author": "Tom Standage",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "History",
+      "otherInfo": "A look at history through beverages."
+    },
+    {
+      "name": "Harry Potter and the Goblet of Fire",
+      "author": "J.K. Rowling",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Fantasy",
+      "otherInfo": "The fourth book in the Harry Potter series."
+    },
+    {
+      "name": "The Velveteen Rabbit",
+      "author": "Margery Williams",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Children's Literature",
+      "otherInfo": "A classic children's story."
+    },
+    {
+      "name": "Persuasion",
+      "author": "Jane Austen",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Romance",
+      "otherInfo": "A tale of second chances in love."
+    },
+
+    {
+      "name": "The Exorcist",
+      "author": "William Peter Blatty",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LbPLPjScL._AC_UY218_.jpg",
+      "category": "Horror",
+      "otherInfo": "A chilling tale of demonic possession."
     }
   ]
 }
