@@ -4,7 +4,6 @@ import { useBooks } from "../../contexts/BooksContext";
 import Heading from "../components/Heading";
 import { useState } from "react";
 
-
 function BookSection() {
   const { books, isLoading, dispatch, showingBook } = useBooks();
 
@@ -14,6 +13,8 @@ function BookSection() {
   const handlePageChange = ({ selected }) => {
     setCurrentPage(selected);
   };
+  let active = "";
+  let clicked = false;
 
   const startIndex = currentPage * itemsPerPage;
 
@@ -22,8 +23,6 @@ function BookSection() {
     startIndex,
     endIndex
   );
-
-
 
   const category = [
     ...new Set(
@@ -35,13 +34,22 @@ function BookSection() {
   category.unshift("All");
 
   function handleFilter(e) {
+    const element = e.target.parentElement.querySelectorAll("li");
+    element.forEach((elem) => {
+      elem.classList.remove("bg-blue-700");
+      elem.classList.remove("text-white");
+    });
+     e.target.classList.add("bg-blue-700");
+    e.target.classList.add("text-white");
+    
+
     const filtered = e.target.innerText;
     if (filtered === "All") {
       return dispatch({ type: "book/filtered", payload: null });
     }
-    const filteredCat = books.filter(
-      (category) => category.category === filtered
-    );
+    const filteredCat = books.filter((category) => {
+      return category.category === filtered;
+    });
     dispatch({ type: "book/filtered", payload: filteredCat });
   }
 
@@ -57,9 +65,11 @@ function BookSection() {
             <li
               onClick={handleFilter}
               key={cat}
-              className="p-2 border-2 border-blue-700 rounded cursor-pointer text-blue-700 font-bold active:bg-blue-700 active:text-white"
+              className={`p-2 border-2 border-blue-700 rounded cursor-pointer text-blue-700 font-bold ${
+                active === clicked ? "bg-blue-800" : "logo"
+              }`}
             >
-                {cat}
+              {cat}
             </li>
           );
         })}
@@ -118,7 +128,9 @@ function BookSection() {
           nextLabel={""}
           breakLabel="..."
           breakClassName="break-me"
-          pageCount={Math.ceil((showingBook ? showingBook :books).length / itemsPerPage)}
+          pageCount={Math.ceil(
+            (showingBook ? showingBook : books).length / itemsPerPage
+          )}
           marginPagesDisplayed={2}
           pageRangeDisplayed={5}
           onPageChange={handlePageChange}
